@@ -12,6 +12,7 @@
   color: white;
   padding: 20px;
   position: relative;
+  height: 100vh;
 }
 
 .top_menu {
@@ -47,14 +48,15 @@
 }
 
 .bottom_menu {
-  margin-top: auto;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  right: 20px;
   display: flex;
   flex-direction: row;
   gap: 20px;
   border-top: 2px solid gray;
-  margin-top: 190px;
 }
-
 .bottom_menu a {
   display: flex;
   align-items: center;
